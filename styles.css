@@ -905,13 +905,13 @@ a {
 .footer {
   background: var(--color-pitch-black);
   border-top: 1px solid var(--color-dark-gray);
-  color: #d0d0d0;
+  color: #fff;
   padding: var(--spacing-32) 0;
 }
 
 .footer__inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: var(--spacing-24);
 }
@@ -919,7 +919,11 @@ a {
 .footer__left {
   font-size: 14px;
   line-height: 1.25;
-  color: var(--color-medium-gray);
+  color: var(--color-arctic-white);
+}
+
+.footer__social {
+  padding: 10px 10px;
 }
 
 .footer__logo {
@@ -939,10 +943,15 @@ a {
   justify-content: flex-end;
 }
 
+.footer__iconlink {
+  display: inline-block;
+  margin: 12px 20px
+}
+
 .footer__link {
   font-size: 16px;
   line-height: 1.25;
-  color: var(--color-medium-gray);
+  color: var(--color-arctic-white);
   transition: color 0.3s ease;
 }
 
