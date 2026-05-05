@@ -761,6 +761,10 @@ a {
   background: linear-gradient(90deg, var(--color-pitch-black) 0 50%, var(--color-ash-gray) 50% 100%);
 }
 
+.quote__meta {
+  margin-bottom: var(--spacing-16);
+}
+
 .card--quote .card__stars {
   display: inline-flex;
   gap: 6px;
